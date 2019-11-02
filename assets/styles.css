@@ -1,0 +1,53 @@
+div > div.editor, div.mask {
+  outline-color: transparent;
+}
+
+div.commands {
+  position: relative;
+  font-size: 28px;
+  color: #31708f;
+}
+
+div > div.editor {
+  padding: 1em;
+  min-height: 228px;
+}
+
+div.mask {
+  overflow: hidden;
+}
+
+div.mask select {
+  font-size: 12px;
+  font-family: arial;
+  color: #0c0c0c;
+}
+
+div.editor div {
+  border: 1px dotted #4d4d4d;
+}
+
+div.editor img.click {
+  border: 2px solid #170caa;
+}
+
+
+[type="file"] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
+}
+ 
+[type="file"] + img {
+  cursor: pointer;
+  display: inline-block;
+}
+  
+[type="file"]:focus + img {
+  outline: 1px dotted #000;
+}

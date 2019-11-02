@@ -1,0 +1,22 @@
+{
+    "name": "shahimian/yii2-xeditor",
+    "description": "It allows you can easily edit your own HTML documents richly decorated.",
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "keywords": ["yii2","extension","widget","html","editor"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shahimian",
+            "email": "shahimian@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "widgets\\xeditor\\": ""
+        }
+    }
+}
